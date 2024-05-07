@@ -16,6 +16,8 @@
 		6160260C2BEAB85800F94515 /* MovieInfoBrowserUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6160260B2BEAB85800F94515 /* MovieInfoBrowserUITestsLaunchTests.swift */; };
 		616026192BEAC2D900F94515 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 616026182BEAC2D900F94515 /* .gitignore */; };
 		6160261D2BEAC4B400F94515 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 6160261C2BEAC4B400F94515 /* LICENSE */; };
+		6160261F2BEAC5E200F94515 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6160261E2BEAC5E200F94515 /* Movie.swift */; };
+		616026212BEAC64F00F94515 /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616026202BEAC64F00F94515 /* MovieService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		6160261A2BEAC34800F94515 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6160261B2BEAC47400F94515 /* CONTRIBUTING.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTING.md; sourceTree = "<group>"; };
 		6160261C2BEAC4B400F94515 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6160261E2BEAC5E200F94515 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		616026202BEAC64F00F94515 /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,8 @@
 				616025F02BEAB85700F94515 /* ContentView.swift */,
 				616025F22BEAB85800F94515 /* Assets.xcassets */,
 				616025F42BEAB85800F94515 /* Preview Content */,
+				6160261E2BEAC5E200F94515 /* Movie.swift */,
+				616026202BEAC64F00F94515 /* MovieService.swift */,
 			);
 			path = MovieInfoBrowser;
 			sourceTree = "<group>";
@@ -271,6 +277,8 @@
 			files = (
 				616025F12BEAB85700F94515 /* ContentView.swift in Sources */,
 				616025EF2BEAB85700F94515 /* MovieInfoBrowserApp.swift in Sources */,
+				616026212BEAC64F00F94515 /* MovieService.swift in Sources */,
+				6160261F2BEAC5E200F94515 /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
