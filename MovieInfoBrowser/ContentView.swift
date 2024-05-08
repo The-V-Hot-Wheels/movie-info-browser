@@ -31,7 +31,6 @@ struct ContentView: View {
                     }
                 }
             }
-            Text("Hello, world!")
             VStack {
                 List(service.movies) { movie in
                     Text(movie.Title).font(.largeTitle)
