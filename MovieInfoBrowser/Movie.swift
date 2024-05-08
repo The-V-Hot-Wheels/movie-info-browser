@@ -9,18 +9,18 @@ import Foundation
 
 struct Movie : Decodable, Identifiable {
     
-    let id: Int
+    var id: String { imdbID }
     
     let imdbID: String
     
-    let title: String
+    let Title: String
     
-    let mpaRating: String
+    let Rated: String
     
-    let writer: String
+    let Writer: String
     
-    let director: String
+    let Director: String
     
-    let plot: String
+    let Plot: String
     
 }
