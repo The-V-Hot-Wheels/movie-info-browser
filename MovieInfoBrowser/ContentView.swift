@@ -34,6 +34,9 @@ struct ContentView: View {
             VStack {
                 List(service.movies) { movie in
                     Text(movie.Title).font(.largeTitle)
+                    if (movie.Poster != "N/A") {
+                        AsyncImage(url: URL(string: movie.Poster))
+                    }
                     Text(movie.Rated)
                     Text(movie.Director).font(.subheadline)
                     Text(movie.Writer).font(.subheadline)

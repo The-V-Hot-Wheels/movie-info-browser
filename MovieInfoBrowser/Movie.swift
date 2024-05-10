@@ -21,6 +21,8 @@ struct Movie : Decodable, Identifiable {
     
     let Director: String
     
+    let Poster: String
+    
     let Plot: String
     
 }
