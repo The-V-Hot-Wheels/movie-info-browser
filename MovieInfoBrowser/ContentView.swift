@@ -20,11 +20,11 @@ struct ContentView: View {
     var body: some View {
         VStack {
             HStack {
-                Text("Movie ID tt")
-                TextField(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/, text: $movieID).onSubmit {
+                Text("Search by title")
+                TextField("e.g., Star Trek 4", text: $movieID).onSubmit {
                     Task {
                         do {
-                            try await service.getMovies(imdbID: movieID)
+                            try await service.getMovies(title: movieID)
                         } catch {
                             print(error)
                         }

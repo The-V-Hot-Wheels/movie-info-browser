@@ -11,8 +11,8 @@ class MovieService : ObservableObject {
     
     @Published var movies: [Movie] = []
     
-    func getMovies(imdbID: String) async throws {
-        let url = URL(string: "https://www.omdbapi.com/?i=tt\(imdbID)&apikey=\(movieAPIKey)")
+    func getMovies(title: String) async throws {
+        let url = URL(string: "https://www.omdbapi.com/?t=\(title)&apikey=\(movieAPIKey)")
         let (data, _) = try await URLSession.shared.data(from: url!)
         let decoder = JSONDecoder()
         let movie = try decoder.decode(Movie.self, from: data)
