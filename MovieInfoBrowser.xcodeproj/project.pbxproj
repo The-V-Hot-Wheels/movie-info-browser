@@ -20,6 +20,8 @@
 		616026212BEAC64F00F94515 /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616026202BEAC64F00F94515 /* MovieService.swift */; };
 		61A509A02BEF11A40035DA8F /* MovieServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A5099F2BEF11A40035DA8F /* MovieServiceTests.swift */; };
 		61A509A12BEF14BD0035DA8F /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616026202BEAC64F00F94515 /* MovieService.swift */; };
+		61A509A22BEF16A60035DA8F /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6160261E2BEAC5E200F94515 /* Movie.swift */; };
+		61A509A32BEF16C30035DA8F /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B2CBC82BEC06FA00F22607 /* APIKey.swift */; };
 		61B2CBC92BEC06FA00F22607 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B2CBC82BEC06FA00F22607 /* APIKey.swift */; };
 /* End PBXBuildFile section */
 
@@ -304,7 +306,9 @@
 			files = (
 				61A509A12BEF14BD0035DA8F /* MovieService.swift in Sources */,
 				61A509A02BEF11A40035DA8F /* MovieServiceTests.swift in Sources */,
+				61A509A22BEF16A60035DA8F /* Movie.swift in Sources */,
 				616026002BEAB85800F94515 /* MovieInfoBrowserTests.swift in Sources */,
+				61A509A32BEF16C30035DA8F /* APIKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

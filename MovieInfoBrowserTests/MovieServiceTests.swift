@@ -17,8 +17,9 @@ final class MovieServiceTests: XCTestCase {
         let end = "\",\"Response\":\"True\"}"
         let example = "\(begin)\(empties)\(nearEnd)\(end)"
         let data = example.data(using: .utf8)!
-        let expected = "[\(empties)]"
+        let expected = "[\(empties)]".data(using: .utf8)
         let actual: Data = MovieService.stripOutWrapper(data)
+        XCTAssertEqual(expected, actual)
     }
 
 }
