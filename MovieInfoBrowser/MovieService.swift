@@ -13,7 +13,7 @@ class MovieService : ObservableObject {
     @Published var movies: [Movie] = []
     
     // TODO: Write tests for this
-    static func stripOutWrapper(_ input: Data) {
+    static func stripOutWrapper(_ input: Data) -> Data {
         input
     }
     

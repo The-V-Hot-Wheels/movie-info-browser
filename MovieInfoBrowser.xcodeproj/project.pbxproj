@@ -18,6 +18,8 @@
 		6160261D2BEAC4B400F94515 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 6160261C2BEAC4B400F94515 /* LICENSE */; };
 		6160261F2BEAC5E200F94515 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6160261E2BEAC5E200F94515 /* Movie.swift */; };
 		616026212BEAC64F00F94515 /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616026202BEAC64F00F94515 /* MovieService.swift */; };
+		61A509A02BEF11A40035DA8F /* MovieServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A5099F2BEF11A40035DA8F /* MovieServiceTests.swift */; };
+		61A509A12BEF14BD0035DA8F /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616026202BEAC64F00F94515 /* MovieService.swift */; };
 		61B2CBC92BEC06FA00F22607 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B2CBC82BEC06FA00F22607 /* APIKey.swift */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +57,7 @@
 		6160261C2BEAC4B400F94515 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		6160261E2BEAC5E200F94515 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		616026202BEAC64F00F94515 /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
+		61A5099F2BEF11A40035DA8F /* MovieServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieServiceTests.swift; sourceTree = "<group>"; };
 		61B2CBC82BEC06FA00F22607 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -133,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				616025FF2BEAB85800F94515 /* MovieInfoBrowserTests.swift */,
+				61A5099F2BEF11A40035DA8F /* MovieServiceTests.swift */,
 			);
 			path = MovieInfoBrowserTests;
 			sourceTree = "<group>";
@@ -298,6 +302,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61A509A12BEF14BD0035DA8F /* MovieService.swift in Sources */,
+				61A509A02BEF11A40035DA8F /* MovieServiceTests.swift in Sources */,
 				616026002BEAB85800F94515 /* MovieInfoBrowserTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
