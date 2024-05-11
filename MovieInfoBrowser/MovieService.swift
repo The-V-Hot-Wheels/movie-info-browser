@@ -12,6 +12,11 @@ class MovieService : ObservableObject {
     
     @Published var movies: [Movie] = []
     
+    // TODO: Write tests for this
+    static func stripOutWrapper(_ input: Data) {
+        input
+    }
+    
     func getMovies(title: String) async throws {
         let url = URL(string: "https://www.omdbapi.com/?t=\(title)&apikey=\(movieAPIKey)")
         let (data, _) = try await URLSession.shared.data(from: url!)
