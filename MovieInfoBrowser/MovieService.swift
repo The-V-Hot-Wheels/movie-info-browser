@@ -22,7 +22,7 @@ class MovieService : ObservableObject {
         let (data, _) = try await URLSession.shared.data(from: url!)
         let decoder = JSONDecoder()
         let movie = try decoder.decode(Movie.self, from: data)
-        movies.append(movie)
+        movies.insert(movie, at: 0)
     }
     
 }
