@@ -12,8 +12,8 @@ that it won't get picked up by Git. First, I tried putting it in an environment
 variable called `MOVIE_API_KEY`, but since this is an iOS app rather than a 
 macOS program, that just didn't work.
 
-So instead, per my mentor's suggestion, I made a Swift file in the secrets 
-folder and added this line after "`import Foundation`":
+So instead, per my mentor's suggestion, I made a Swift file called `APIKey` in 
+the secrets folder and added this line after "`import Foundation`":
 
 ```
 let movieAPIKey = "555_EXAMPLE_5555"
