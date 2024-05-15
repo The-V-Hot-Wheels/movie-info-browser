@@ -7,6 +7,16 @@ much simpler.
 Even so, this movie info browser is not intended to be a user-friendly app. It 
 is only meant for our team's research.
 
+All this program does is show you some basic information about a movie. In the 
+first draft, you had to type the movie's IMDb ID without the "tt" prefix. But 
+that was way too user-unfriendly even for an internal use app.
+
+So I changed it to instead take the movie's title. Fortunately, thanks to the 
+OMDb API, you don't have to be exact with the movie titles. For example, "Empire 
+strikes back" and "Are you there, God?" should pull up *Star Wars: Episode V: 
+The Empire strikes back* and *Are You There, God? It's Me, Margaret*, 
+respectively.
+
 Make sure you have your OMDb API key is somewhere the program can access it but 
 that it won't get picked up by Git. First, I tried putting it in an environment 
 variable called `MOVIE_API_KEY`, but since this is an iOS app rather than a 
