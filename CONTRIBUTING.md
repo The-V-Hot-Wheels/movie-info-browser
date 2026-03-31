@@ -1,6 +1,6 @@
-# Guidelines for Hacktoberfest 2025 contributors
+# Guidelines for Hacktoberfest 2026 contributors
 
-This project is open to Hacktoberfest 2025 contributors. Preferably Apple 
+This project is open to Hacktoberfest 2026 contributors. Preferably Apple 
 Developer Academy students.
 
 ## Requirements
