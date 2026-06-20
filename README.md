@@ -37,3 +37,15 @@ To get your OMDb API key, go to
 [https://www.omdbapi.com/apikey.aspx](https://www.omdbapi.com/apikey.aspx). As 
 we're not expecting to do high volume on this one, the free tier should be 
 adequate. Otherwise, you should sign up with Patreon.
+
+## Known issues
+
+* Movie titles with ampersands are sometimes not handled well. Two hopefully 
+reproducible examples: *Truth &amp; Treason* and *Turner &amp; Hooch*. If you 
+put in the ampersand, the movie is not found. If you replace the ampersand with 
+"and," it might not find the movie. So I changed the program to simply strip out 
+ampersands. That might not be enough, though.
+* Movie titles with Roman numerals might not get pulled up. The user should not 
+have to remember whether the title uses Roman numerals, regular digits or number 
+words. But I don't want to use A.I. to address this problem, as that would 
+surely introduce plenty more problems.
